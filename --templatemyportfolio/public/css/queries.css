@@ -1,0 +1,24 @@
+@media (max-width: 575px) {
+  header {
+    width: 100%;
+    max-width: 100%;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .row .col-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .row .col-header .img-header {
+    width: 100%;
+    max-width: 50%;
+  }
+  .row .col-header a {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=queries.css.map */
