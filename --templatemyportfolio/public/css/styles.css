@@ -1,24 +1,218 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
-@media (max-width: 575px) {
+@media only screen and (max-width: 600px) {
   header {
     width: 100%;
     max-width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px;
   }
-  .row {
+  header .row.row-header {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
   }
-  .row .col-header {
+  header .row.row-header .col-header {
     display: flex;
     flex-direction: column;
   }
-  .row .col-header .img-header {
+  header .row.row-header .col-header a.li-a-header {
     width: 100%;
-    max-width: 50%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .row .col-header a {
-    font-size: 12px;
+  header .row.row-header .col-header a.li-a-header img.img-header {
+    width: 100%;
+    max-width: 20%;
+  }
+  header .row.row-header .col-header2 {
+    display: flex;
+    flex-direction: column;
+  }
+  header .row.row-header .col-header2 .ul {
+    flex-direction: column;
+  }
+  header .row.row-header .col-header2 .ul li.li-header {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: "Roboto Condensed", serif;
+  }
+}
+@media only screen and (min-width: 600px) {
+  header {
+    width: 100%;
+    max-width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px;
+  }
+  header .row.row-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header .row.row-header .col-header {
+    display: flex;
+    flex-direction: column;
+  }
+  header .row.row-header .col-header a.li-a-header {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .row.row-header .col-header a.li-a-header img.img-header {
+    width: 100%;
+    max-width: 22.5%;
+  }
+  header .row.row-header .col-header2 {
+    display: flex;
+    flex-direction: column;
+  }
+  header .row.row-header .col-header2 .ul {
+    flex-direction: column;
+  }
+  header .row.row-header .col-header2 .ul li.li-header {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "Roboto Condensed", serif;
+  }
+}
+@media only screen and (min-width: 768px) {
+  header {
+    width: 100%;
+    max-width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px;
+  }
+  header .row.row-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header .row.row-header .col-header {
+    display: flex;
+    flex-direction: column;
+  }
+  header .row.row-header .col-header a.li-a-header {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .row.row-header .col-header a.li-a-header img.img-header {
+    width: 100%;
+    max-width: 25%;
+  }
+  header .row.row-header .col-header2 {
+    display: flex;
+    flex-direction: column;
+  }
+  header .row.row-header .col-header2 .ul {
+    flex-direction: row;
+  }
+  header .row.row-header .col-header2 .ul li.li-header {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Roboto Condensed", serif;
+  }
+}
+@media only screen and (min-width: 992px) {
+  header {
+    width: 100%;
+    max-width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px;
+  }
+  header .row.row-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  header .row.row-header .col-header {
+    display: flex;
+    flex-direction: row;
+  }
+  header .row.row-header .col-header a.li-a-header {
+    width: 100%;
+    max-width: 45%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  header .row.row-header .col-header a.li-a-header img.img-header {
+    width: 100%;
+    max-width: 45%;
+  }
+  header .row.row-header .col-header2 {
+    display: flex;
+    flex-direction: column;
+  }
+  header .row.row-header .col-header2 .ul {
+    flex-direction: row;
+  }
+  header .row.row-header .col-header2 .ul li.li-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 26px;
+    font-family: "Roboto Condensed", serif;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  header {
+    width: 100%;
+    max-width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px;
+  }
+  header .row.row-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  header .row.row-header .col-header {
+    display: flex;
+    flex-direction: column;
+  }
+  header .row.row-header .col-header a.li-a-header {
+    width: 100%;
+    max-width: 42.5%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  header .row.row-header .col-header a.li-a-header img.img-header {
+    width: 100%;
+    max-width: 42.5%;
+  }
+  header .row.row-header .col-header2 {
+    display: flex;
+    flex-direction: column;
+  }
+  header .row.row-header .col-header2 .ul {
+    flex-direction: row;
+  }
+  header .row.row-header .col-header2 .ul li.li-header {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-family: "Roboto Condensed", serif;
   }
 }
 * {
@@ -34,73 +228,49 @@ header {
   color: black;
   padding: 15px;
 }
-header .row {
+header .row-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-header .row .col-header {
+header .row-header .col-header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
-header .row .col-header .img-header {
+header .row-header .col-header a {
   width: 100%;
-  max-width: 10%;
+  max-width: 15%;
 }
-header .row .col-header a {
-  font-size: 24px;
-  font-family: "Roboto Condensed", serif;
-  text-decoration: none;
+header .row-header .col-header a .img-header {
+  width: 100%;
+  max-width: 100%;
 }
-header .row .col-header2 {
+header .row-header .col-header2 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-header .row .col-header2 .ul {
+header .row-header .col-header2 .ul {
   display: flex;
   list-style: none;
 }
-header .row .col-header2 .ul li {
+header .row-header .col-header2 .ul .li-header {
   display: flex;
   font-size: 24px;
   font-family: "Roboto Condensed", serif;
   padding: 10px;
   margin-right: 15px;
 }
-header .row .col-header2 .ul li a {
+header .row-header .col-header2 .ul .li-header a {
   color: black;
   text-decoration: none;
 }
-header .row .col-header2 .ul li a:hover {
+header .row-header .col-header2 .ul .li-header a:hover {
   padding: 10px;
   border-radius: 5px;
   color: #f44336;
   font-size: 26px;
-  background-color: rgb(11.5, 11.5, 11.5);
-}
-
-@media (max-width: 575px) {
-  header {
-    width: 100%;
-    max-width: 100%;
-  }
-  .row {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .row .col-header {
-    display: flex;
-    flex-direction: column;
-  }
-  .row .col-header .img-header {
-    width: 100%;
-    max-width: 50%;
-  }
-  .row .col-header a {
-    font-size: 12px;
-  }
+  background-color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */
